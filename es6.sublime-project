@@ -1,0 +1,20 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "build_systems":
+    [
+        {
+            "name": "Babel compile",
+            "shell_cmd": "node_modules/.bin/browserify src/main.js -t babelify --outfile src/bundle.js"
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4,
+        "translate_tabs_to_spaces": true,
+        "default_line_ending": "unix"
+    }
+}

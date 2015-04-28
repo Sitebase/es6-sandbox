@@ -1,0 +1,18 @@
+{
+  "name": "es6-sandbox",
+  "version": "1.0.0",
+  "description": "Little sandbox project to test out some ES6 code and examples.",
+  "main": "bundle.js",
+  "dependencies": {
+    "babelify": "^6.0.2"
+  },
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wim Mostmans (http://www.sitebase.be/)",
+  "license": "ISC"
+}
